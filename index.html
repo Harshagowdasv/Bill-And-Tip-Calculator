@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIll And Tip Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <img src="images/logo.png" alt="" id="logo"><br>
+        <button onclick="toggleDarkMode()" class="btn">Toggle Dark Mode</button>
+        <h1>Bill Calculator</h1>
+        <div id="item-section">
+
+        </div>      
+        <h3>Tip Percentage</h3>
+        <select id="tip">
+            <option value="0.12">12%</option>
+            <option value="0.14">14%</option>
+            <option value="0.16">16%</option>
+            <option value="0.18">18%</option>
+            <option value="0.20">20%</option>
+          </select>
+        <input type="text"placeholder="Enter How Many persons Will pay!" id="np" >
+        <br>
+        <button id="cbtn">Calculate</button>
+        
+        <button id="resetBtn">Reset</button>
+
+        <div id="receipt">
+            <h1>Reciept</h1>
+            <div id="reciept-details"></div>
+    
+        </div>
+
+
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>

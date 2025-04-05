@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.container{
+    background-color: rgb(194, 214, 234);
+    margin-top: 2000px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container:hover{
+    animation: zoom 0.5s;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#tbill, #tip, #np,#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10{
+    width: 220px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+#receipt {
+    background-color: #e9f7ef;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+    transition: background-color 0.3s, ease;
+  }
+
+  .dark-mode #receipt {
+    background-color: #2b2b2b;
+  }
+
+#receipt p{
+    text-align: left;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+}
+
+.item-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .item-row img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  #logo {
+    text-align: center;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container img{
+    margin-right: 0px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #030303;
+    padding: 5px;
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
